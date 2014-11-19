@@ -1,5 +1,3 @@
-![maptimeAMS](images/maptime-ams.png)
-
 # Maptime Amsterdam
 
 > Want to learn how to make beautiful maps? Let's do it together! Beginners very welcome!
