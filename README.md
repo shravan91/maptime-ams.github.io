@@ -1,3 +1,5 @@
+![maptimeAMS](images/maptime-ams.png)
+
 # Maptime Amsterdam
 
 > Want to learn how to make beautiful maps? Let's do it together! Beginners very welcome!
@@ -8,7 +10,7 @@ For more information about Maptime, see [Maptime HQ's website](http://maptime.io
 
 Maptime Amsterdam is hosted by [Waag Society](http://waag.org), and is supported by [FIWARE](http://waag.org/en/project/ngsi-compliancy-citysdk-ld-api) and [Smart City SDK](http://waag.org/en/project/smart-citysdk).
 
-![maptimeAMS](images/maptimeAMS.png)
+![maptimeAMS](images/website.png)
 
 ## Buildings GeoJSON
 
