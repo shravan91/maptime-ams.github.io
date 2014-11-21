@@ -2,7 +2,7 @@
 
 > Want to learn how to make beautiful maps? Let's do it together! Beginners very welcome!
 
-This repository contains the [website](http://code.waag.org/maptimeAMS) for Maptime Amsterdam. Resources, tutorials and presentations can be found in Maptime Amsterdam's [GitHub organization](https://github.com/maptime-ams).
+This repository contains the [website](http://maptime-ams.github.io) for Maptime Amsterdam. Resources, tutorials and presentations can be found in Maptime Amsterdam's [GitHub organization](https://github.com/maptime-ams).
 
 For more information about Maptime, see [Maptime HQ's website](http://maptime.io/).
 
