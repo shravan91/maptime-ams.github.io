@@ -2,7 +2,7 @@ window.onload = function() {
   var cx = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2,
       cy = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) / 2;
 
-  var s = document.getElementsByTagName('p'), cur = 0, ti;
+  var s = document.getElementsByTagName('div'), cur = 0, ti;
   var bg = document.getElementById('background-image');
   var tr = 0;
   if (!s) return;
