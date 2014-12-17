@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maptime Amsterdam - {{ page.path }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/presentation.css" id="theme">
+  <script src="{{ site.baseurl }}/js/d3.v3.min.js" charset="utf-8"></script>
+	<script src="{{ site.baseurl }}/js/big.js"></script>
+</head>
+<body>
+  <span id="background-image"></span>
+  {{content}}
+  <a class="logo" id="logo-maptime" href="http://maptime.io"><img src="{{ site.baseurl }}/images/maptime.png" /></a>
+  <a class="logo" id="logo-waag" href="http://waag.org"><img src="{{ site.baseurl }}/images/waag.png" /></a>
+</body>
+</html>
