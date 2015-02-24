@@ -8,7 +8,17 @@ title: Maptime Amsterdam
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width">
+    <script src="{{ site.baseurl }}/js/moment.min.js" charset="utf-8"></script>
     <script src="{{ site.baseurl }}/js/d3.v3.min.js" charset="utf-8"></script>
+    <script>
+      nextEvent = null;
+      function meetup(data) {
+        if (data.results && data.results.length > 0) {
+          nextEvent = data.results[0];
+        }
+      }
+    </script>
+    <script src="https://api.meetup.com/2/events?status=upcoming&order=time&limited_events=False&group_urlname=Maptime-AMS&desc=false&offset=0&format=json&page=200&fields=&sig_id=127432242&sig=09a46e33303a48a8fe37e602e1f17a35e9e26124&callback=meetup"></script>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
     <meta property="og:url" content="http://code.waag.org/maptimeAMS" />
@@ -44,7 +54,7 @@ title: Maptime Amsterdam
         <p>Want to learn how to make beautiful maps? Let's do it together! Beginners very welcome!</p>
         <p><b>
           Next Maptime:
-          <a href="{{ site.next-event-url }}">{{ site.next-event }}</a>,
+          <a id="next-maptime">TBA</a>,
           <a href="{{ site.venue-url }}">{{ site.venue }}</a>
         </b></p>
         <ul>
@@ -57,5 +67,17 @@ title: Maptime Amsterdam
     <a class="logo" id="logo-maptime" href="http://maptime.io"><img src="{{ site.baseurl }}/images/maptime.png" /></a>
     <a class="logo" id="logo-waag" href="http://waag.org"><img src="{{ site.baseurl }}/images/waag.png" /></a>
     <script src="{{ site.baseurl }}/js/maptime-ams.js" charset="utf-8"></script>
+    <script>
+      if (nextEvent) {
+        var time = nextEvent.time,
+            url = nextEvent.event_url;
+            date = new Date(time),
+            dateStr = moment(date).format('MMMM Do YYYY, h:mm a');
+
+        d3.select("#next-maptime")
+            .attr("href", url)
+            .html(dateStr);
+      }
+    </script>
   </body>
 </html>
