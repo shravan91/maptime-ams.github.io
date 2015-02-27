@@ -72,7 +72,7 @@ title: Maptime Amsterdam
         var time = nextEvent.time,
             url = nextEvent.event_url;
             date = new Date(time),
-            dateStr = moment(date).format('MMMM Do YYYY, h:mm a');
+            dateStr = moment(date).format('MMMM Do YYYY');
 
         d3.select("#next-maptime")
             .attr("href", url)
