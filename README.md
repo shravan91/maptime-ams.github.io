@@ -6,7 +6,7 @@ This repository contains the [website](http://maptime-ams.github.io) for Maptime
 
 For more information about Maptime, see [Maptime HQ's website](http://maptime.io/).
 
-Maptime Amsterdam is hosted by [Waag Society](http://waag.org), and is supported by [FIWARE](http://waag.org/en/project/ngsi-compliancy-citysdk-ld-api) and [Smart City SDK](http://waag.org/en/project/smart-citysdk).
+Maptime Amsterdam is hosted by [Waag ](http://waag.org), and is supported by [FIWARE](http://waag.org/en/project/ngsi-compliancy-citysdk-ld-api) and [Smart City SDK](http://waag.org/en/project/smart-citysdk).
 
 ![maptimeAMS](images/website.png)
 
