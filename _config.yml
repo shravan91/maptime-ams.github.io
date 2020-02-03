@@ -4,11 +4,11 @@ baseurl:
 animation-interval: 5500
 building-stroke-width: 8
 
-venue: Waag Society, Nieuwmarkt 4
+venue: Waag, Nieuwmarkt 4
 venue-url: "https://www.openstreetmap.org/#map=19/52.37268/4.90042"
 
 links:
-  - title: Maptime HQ
+  - title: Maptime HQ 
     url: http://maptime.io/
 
   - title: Meetup
@@ -20,7 +20,7 @@ links:
   - title: GitHub
     url: https://github.com/maptime-ams
 
-  - title: Waag Society
+  - title: Waag
     url: http://waag.org/
 
 collections:
