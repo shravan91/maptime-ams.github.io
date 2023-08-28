@@ -4,8 +4,8 @@ baseurl:
 animation-interval: 5500
 building-stroke-width: 8
 
-venue: Waag, Nieuwmarkt 4
-venue-url: "https://www.openstreetmap.org/#map=19/52.37268/4.90042"
+venue: TomTom, Oosterdoksstraat 114, 1011 DK Amsterdam
+venue-url: "https://www.openstreetmap.org/node/10058517320"
 
 links:
   - title: Maptime HQ 
@@ -20,8 +20,11 @@ links:
   - title: GitHub
     url: https://github.com/maptime-ams
 
-  - title: Waag
-    url: http://waag.org/
+  - title: TM Systems | TomTom
+    url: https://www.tmspl.com/
+
+  - title: TomTom
+    url: https://www.tomtom.com/
 
 collections:
   meetups:
